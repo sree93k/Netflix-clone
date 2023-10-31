@@ -1,0 +1,426 @@
+body{
+    margin: 0;
+   background-color: rgb(41, 41, 41);
+   font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.netflixcontainer{
+    width: 100%;
+    height: 3000px;
+}
+.main-container{
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("netflix-img1.jpeg");
+    background-position: center ;
+    background-size: auto;
+    margin-bottom: 8px;
+}
+.main-inner{
+    width: 100%;
+    height: 100%;
+    
+}
+.header{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+   
+}
+.header-left{
+    width: 50%;
+    height: 100%;
+}
+.header-left-inner{
+    width:300px;
+    height: 50px;
+    
+    margin-top: 20px;
+    margin-left: 350px;
+    display: flex;
+    flex-direction: row;
+
+}
+.netflixlogo{
+    width: 160px;
+   margin-top: 26px;
+   margin-left: 124px;
+    fill: #e50815;
+    
+}
+.header-right{
+    width: 50%;
+    height: 100%;
+}
+.sign-in{
+    margin-left: 20px ;
+  
+}
+.Signin-submit{
+    width: 80px;
+    height: 33px;
+    background-color:#e50815;
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+}
+.Signin-submit:hover{
+    cursor: pointer;
+    background-color:#c20512 ;
+}
+
+.innerbody{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+.innercontainer{
+    width: 70%;
+    height: 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+.inner1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.email{
+    
+    background: transparent;
+    width: 370px;
+    height: 50px;
+    color: white;
+}
+.inner2{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-left: 70px;
+    padding-left: 10px;
+}
+.submit{
+    width: 214px;
+    height: 55px;
+    background-color:#e50815;;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 3px;
+    border-style: none;
+    font-size: 23px;
+    
+}
+.submit:hover{
+    cursor: pointer;
+    background-color: #c20512  ;
+}
+.second-main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.second-left{
+    width: 50%;
+    height: 80%;
+    
+}
+.sec-left-inner{
+    width: 80%;
+    height: 50%;
+    line-height: 27px;
+  margin-top: 130px;
+  margin-left: 150px;
+}
+
+.second-right{
+    width: 50%;
+    height: 80%; 
+    
+}
+.second-inner{
+    width: 80%;
+   
+}
+.img{
+    width: 100%;
+    height: 100%;
+
+}
+.video{
+width: 419px;
+
+}
+
+
+
+
+
+.third-main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.third-left{
+width: 50%;
+height: 80%;
+
+}
+.third-left-inner{
+    width: 80%;
+    height: 100%;
+    margin-left: 130px;
+   
+
+}
+.third-image{
+    width: 540px;
+    margin-top: 60px;
+    position: absolute;
+}
+.third-inner-box{
+    width: 200px;
+    height: 200px;
+    
+    position: relative;
+}
+
+.third-right{
+    width: 50%;
+    height: 80%;
+    
+}
+
+.third-right-inner{
+    width: 80%;
+    height: 50%;
+    margin-top: 170px;
+}
+
+.fourth-main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+}
+.fourth-left{
+    width: 50%;
+    height: 80%;
+    
+}
+.fourth-right-inner{
+    width: 80%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 130px;
+    margin-top: 180px;
+    
+}
+.fourth-right{
+    width: 50%;
+    height: 80%;
+}
+
+
+.fifth-main{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.fifth-left{
+width: 50%;
+height: 80%;
+}
+.fifth-img{
+    width: 550px;
+    margin-left: 150px;
+    margin-top: 70px;
+}
+
+.fifth-right{
+    width: 50%;
+    height: 80%;
+}
+.fifth-right-inner{
+    width: 90%;
+    height: 50%;
+    
+    margin-top: 150px;
+}
+
+
+
+
+.sixth-main{
+    width: 100%;
+    height: 950px;
+    background-color: black;
+    margin-bottom: 8px;
+}
+.sixth-inner{
+    width: 76%;
+    height: 100%;
+    margin-left: 170px;
+   
+}
+.sixth-top{
+    width: 100%;
+    height: 70px;
+   
+    margin-bottom: 8px;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+.footerhead{
+    width: 80%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    margin-left: 110px;
+}
+.sixth-middle{
+    width: 100%;
+    height: 65% ;
+    
+}
+.sixth-m1{
+    width: 100%;
+    height: 90px;
+   background-color: #2d2d2d;
+    margin-bottom:8px ;
+    display: flex;
+    flex-direction: row;
+}
+.sixth-m1:hover{
+cursor: pointer;
+background-color: #414141;
+}
+.first-m1{
+width: 90%;
+height: 100%;
+color: white;
+font-size: 25px;
+margin-top: 25px;
+margin-left: 30px;
+}
+.last-m1{
+    width: 5%;
+    height: 75%;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #fff;
+}
+.sixth-bottom{
+    width: 100%;
+    height: 20%;
+    color: white;
+    padding-top: 10px;
+    
+}
+.footer{
+    width: 100%;
+    height: 330px;
+    background-color: black;
+    padding-top: 70px;
+}
+.footer-inner{
+    width: 76%;
+    height: 80%;
+    
+    margin-left: 170px;
+    color: #b3b3b3;
+  
+    
+}
+.foottop{
+    width: 100%;
+    height:20%;
+   
+}
+.footmid{
+    width: 100%;
+    height: 40%;
+    
+    display: flex;
+    flex-direction: row;
+    
+}
+.foot1{
+    width:25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 14px;
+    
+}
+
+
+
+
+
+.footbottom{
+width: 100%;
+height: 30%;
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-top: 30px;
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
